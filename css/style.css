@@ -92,9 +92,9 @@ p{
 .header{
 	text-align:center;
 	background:url(../img/beige_paper.png) left top repeat;
-	/*padding:200px 0;*/
-	padding: 10% 0;
-	height: 100vh;
+	padding:200px 0;
+	/*padding: 10% 0;*/
+	/*height: 100vh;*/
 }
 .logo{
 	width:130px;
