@@ -91,15 +91,18 @@ p{
 
 .header{
 	text-align:center;
-	background:url(../img/beige_paper.png) left top repeat;
-	padding:200px 0;
+	background:url(../img/pumpkin-orange-backgrounds.jpg) center center no-repeat;
+	padding:100px 0;
+	background-size: cover;
 	/*padding: 10% 0;*/
 	/*height: 100vh;*/
 }
+
 .logo{
-	width:130px;
+	width:300px;
 	margin:0 auto 35px;
 }
+
 .header h1{
 	font-family: 'Montserrat',sans-serif;
 	font-size:50px;
@@ -120,7 +123,8 @@ p{
 	display:inline-block;
 	font-family: 'Montserrat',sans-serif;
 	font-size:14px;
-	color: #808080;
+	/*color: #808080;*/
+	color: #303030;
 	text-transform: uppercase;
 	font-weight: 400;
 	margin:0 5px 0 0;
