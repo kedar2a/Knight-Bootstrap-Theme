@@ -52,7 +52,7 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	font-size:14px;
 	font-weight:normal;
-	color:#888888;
+	color:#303030;
 	margin:0;
 }
 h2{
@@ -75,7 +75,7 @@ h3{
 }
 h6{
 	font-size:16px;
-	color:#888888;
+	color:#303030;
 	font-family: 'Open Sans', sans-serif;
 	font-weight:400;
 	text-align:center;
@@ -178,7 +178,13 @@ color: #fff;
 	border-bottom:1px solid #dddddd;
 	box-shadow:0 4px 5px -3px #ececec;
 	position:relative;
-	background:#fff;
+	background:#fefefe;
+	opacity: 0.8;
+}
+
+.main-nav-outer:hover{
+	opacity: 1;
+	transition: all 1s;
 }
 .main-nav{
 	text-align:center;
@@ -205,7 +211,7 @@ color: #fff;
 
 .main-nav li a:hover{ 
 	text-decoration:none;
-	color: #7cc576;
+	color: #ff2500;
 }
 
 .small-logo{ 
@@ -214,6 +220,11 @@ color: #fff;
 
 .main-section{
 	padding:90px 0 110px;
+}
+
+.pumpkin-bg{
+		background:url(../img/pumpkin-orange-backgrounds.jpg) center center no-repeat;
+	background-size:cover;
 }
 
 
@@ -275,7 +286,7 @@ color: #fff;
 	line-height:38px;
 	font-family: 'FontAwesome';
 	font-size:38px;
-	color:#777777;
+	color:#000;
 	font-style:normal;
 }
 .featured-box-col2{ overflow:hidden;}
@@ -344,6 +355,11 @@ color: #fff;
 	color:#fff;
 	text-decoration:none;
 }
+/*
+.container{
+	background:url(../img/pumpkin-orange-backgrounds.jpg) center center no-repeat;
+	background-size:cover;
+}*/
 
 .portfolioContainer{
 	margin:0 auto;
@@ -371,7 +387,7 @@ color: #fff;
 }
 
 .Portfolio-nav li a.current{
-	background:#7cc576;
+	background:#ff2500;
 	color:#fff;
 	text-decoration:none;
 }
@@ -616,8 +632,14 @@ border: 2px solid #fff;
 	padding:90px 0 100px;
 }
 
+.orange-bg{
+	background-color: orange;
+}
+
 .main-section.contact{
-	background:url(../img/bg-map.png) left 0px no-repeat;
+	/*background:url(../img/bg-map.png) left 0px no-repeat;*/
+	/*background:url(../img/pumpkin-orange-backgrounds.jpg) center center no-repeat;*/
+	/*background-size:cover;*/
 }
 .contact-info-box{
 	font-size:15px;
